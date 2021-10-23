@@ -1,0 +1,19 @@
+export function cardNumberFormatter(oldValue, newValue) {
+  if (oldValue.length > newValue.length) {
+    return newValue;
+  }
+  return newValue
+    .replace(/\W/gi, "")
+    .replace(/(.{4})/g, "$1 ")
+    .substring(0, 19);
+}
+
+export function expirationDateFormatter(oldValue, newValue) {
+  if (oldValue.length > newValue.length) {
+    return newValue;
+  }
+  return newValue
+    .replace(/\W/gi, "")
+    .replace(/(.{2})/g, "$1/")
+    .substring(0, 5);
+}

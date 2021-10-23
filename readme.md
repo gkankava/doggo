@@ -1,0 +1,5 @@
+## Dependencies
+
+### zustand : state manager;
+
+#

@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "doggo",
+    "slug": "doggo",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "scheme": "doggo",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ge.doggoapp.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAoaNsx8GqW5p_Hw6-UzvQNMAbE33-hvyc"
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_BACKGROUND_LOCATION"],
+      "versionCode": 2,
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3CBF77"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "ge.doggoapp.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBPo0b9pdpL9D_BxeB3VfcMyFUuM3a545U"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}

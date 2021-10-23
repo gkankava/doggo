@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "706082194212",
+    "project_id": "doggo-320920",
+    "storage_bucket": "doggo-320920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706082194212:android:361bc055bdd82c9ae3e9b1",
+        "android_client_info": {
+          "package_name": "ge.doggo.walker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706082194212-k6c4blc6870b5nnfre31f74gpgi3crh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkBrStTm0a_Dmuz9LO1sz9jDTKC0yGpyQ"
+        },
+        {
+          "current_key": "AIzaSyBYJLaDam-m3tkgE3UsoPlCESDAKs9uSow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706082194212-k6c4blc6870b5nnfre31f74gpgi3crh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706082194212:android:fcb271d0c0a0a628e3e9b1",
+        "android_client_info": {
+          "package_name": "ge.doggoapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706082194212-k6c4blc6870b5nnfre31f74gpgi3crh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkBrStTm0a_Dmuz9LO1sz9jDTKC0yGpyQ"
+        },
+        {
+          "current_key": "AIzaSyBYJLaDam-m3tkgE3UsoPlCESDAKs9uSow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706082194212-k6c4blc6870b5nnfre31f74gpgi3crh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

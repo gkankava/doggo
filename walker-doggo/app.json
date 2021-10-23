@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "walker-doggo",
+    "slug": "walker-doggo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "scheme": "walker-doggo",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ge.doggoapp.walker",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAoaNsx8GqW5p_Hw6-UzvQNMAbE33-hvyc"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "fetch"]
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_BACKGROUND_LOCATION"],
+      "googleServicesFile": "./google-services.json",
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "ge.doggoapp.walker",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBPo0b9pdpL9D_BxeB3VfcMyFUuM3a545U"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}

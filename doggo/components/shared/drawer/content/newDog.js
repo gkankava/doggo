@@ -1,0 +1,28 @@
+export const ndc = {
+  en: {
+    p: "For better service press 10+3",
+    upload: "Upload picture",
+    name: "Dog name",
+    breed: "breed",
+    sex: "sex",
+    st: "Sterilization/Castration",
+    date: "Date of birth",
+    size: "Size",
+    later: "Skip",
+    add: "Add Dog",
+    save: "Save",
+  },
+  ge: {
+    p: "ჩვენ უკეთესად შევძელბთ თქვენს მომსახურეობას თქვენი ძაღლისთვის",
+    upload: "ფოტოს ატვირთვა",
+    name: "ძაღლის სახელი",
+    breed: "ჯიში",
+    sex: "სქესი",
+    st: "სტერილიზაცია / კასტრაცია",
+    date: "დაბადების თარიღი",
+    size: "ზომა",
+    later: "მოგვიანებით",
+    add: "დამატება",
+    save: "დამახსოვრება",
+  },
+};

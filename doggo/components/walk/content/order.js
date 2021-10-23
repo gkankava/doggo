@@ -1,0 +1,28 @@
+export const wc = {
+  en: {
+    newDog: "Select dog",
+    hs: "Selected Service",
+    hd: "Order Details",
+    type0: "Asap",
+    type1: "Schedule",
+    addr: "Choose an address",
+    cho: "Choose the walker",
+    ph: "Choose payment method",
+    discount: "Discount",
+    total: "Total Amount",
+    fin: "Make an order",
+  },
+  ge: {
+    newDog: "აირჩიეთ ძაღლი",
+    hs: "არჩეული სერვისები",
+    hd: "გამოძახების დეტალები",
+    type0: "ახლავე გამოძახება",
+    type1: "დაგეგმილი გამოძახება",
+    addr: "აირჩიეთ მისამართი",
+    cho: "აირჩიე გამსეირნებელი",
+    ph: "აირჩიეთ გადახდის მეთოდი",
+    discount: "ფასდაკლება",
+    total: "გადასახდელი თანხა",
+    fin: "შეკვეთის გაფორმება",
+  },
+};

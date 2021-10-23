@@ -1,0 +1,28 @@
+export const dc = {
+  en: {
+    greeting: "Hello",
+    dogs: "My Dogs",
+    new: "Add Dog",
+    info: "My Info",
+    history: "History",
+    promo: "Promo Codes",
+    refs: "Refs",
+    bookings: "My Bookings",
+    logout: "Log out",
+    pp: "Privacy and Policy",
+    edit: "Edit dog",
+  },
+  ge: {
+    greeting: "გამარჯობა",
+    dogs: "ჩემი ძაღლები",
+    new: "დაამატე ძაღლი",
+    info: "ჩემი ინფორმაცია",
+    history: "ისტორია",
+    promo: "პრომოკოდები",
+    refs: "რეფერალები",
+    bookings: "ჩემი ჯავშნები",
+    logout: "გასვლა",
+    pp: "კონფიდენციალურობა",
+    edit: "ძაღლის დეტალები",
+  },
+};
